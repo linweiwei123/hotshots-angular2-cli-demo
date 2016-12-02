@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'hotshots';  /* project id："193343" */
+  src: url('//at.alicdn.com/t/font_vvx4440srnng66r.eot');
+  src: url('//at.alicdn.com/t/font_vvx4440srnng66r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_vvx4440srnng66r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_vvx4440srnng66r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_vvx4440srnng66r.svg#hotshots') format('svg');
+}
+
+.ht{
+  font-family: 'hotshots';
+  font-style: normal;
+}
+
+.add:before{
+  content: "\e611";
+  font-size: 20px;
+  color: crimson;
+}
